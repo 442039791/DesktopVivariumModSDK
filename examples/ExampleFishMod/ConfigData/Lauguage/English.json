@@ -1,0 +1,20 @@
+{
+  "fields": [
+    "ID",
+    "Text"
+  ],
+  "types": [
+    "int",
+    "string"
+  ],
+  "data": [
+    {
+      "ID": 90011,
+      "Text": "Example Mod Fish"
+    },
+    {
+      "ID": 90012,
+      "Text": "This is an example fish added by mod, created based on the Cardinal Tetra model and texture. It demonstrates the mod system's config merging feature."
+    }
+  ]
+}

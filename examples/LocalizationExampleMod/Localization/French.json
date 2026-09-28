@@ -1,0 +1,58 @@
+{
+    "fields": ["ID", "Text"],
+    "types": ["int", "string"],
+    "data": [
+        {
+            "ID": 1,
+            "Text": "Français"
+        },
+        {
+            "ID": 2,
+            "Text": "Informations sur l'écosystème"
+        },
+        {
+            "ID": 3,
+            "Text": "Aquarium d'eau douce"
+        },
+        {
+            "ID": 4,
+            "Text": "Taille:"
+        },
+        {
+            "ID": 5,
+            "Text": "Espace:"
+        },
+        {
+            "ID": 6,
+            "Text": "Ajuster"
+        },
+        {
+            "ID": 7,
+            "Text": "Entrepôt"
+        },
+        {
+            "ID": 8,
+            "Text": "Oxygène"
+        },
+        {
+            "ID": 9,
+            "Text": "Dioxyde de carbone"
+        },
+        {
+            "ID": 10,
+            "Text": "Nutriments"
+        },
+        {
+            "ID": 90001,
+            "Text": "Texte de test ajouté par le mod"
+        },
+        {
+            "ID": 90002,
+            "Text": "Ceci est du texte français ajouté par le mod d'exemple de localisation"
+        },
+        {
+            "ID": 90003,
+            "Text": "Bienvenue dans le système de mods!"
+        }
+    ]
+}

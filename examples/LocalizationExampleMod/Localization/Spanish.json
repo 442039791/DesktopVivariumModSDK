@@ -1,0 +1,58 @@
+{
+    "fields": ["ID", "Text"],
+    "types": ["int", "string"],
+    "data": [
+        {
+            "ID": 1,
+            "Text": "Español"
+        },
+        {
+            "ID": 2,
+            "Text": "Información del ecosistema"
+        },
+        {
+            "ID": 3,
+            "Text": "Acuario de agua dulce"
+        },
+        {
+            "ID": 4,
+            "Text": "Tamaño:"
+        },
+        {
+            "ID": 5,
+            "Text": "Espacio:"
+        },
+        {
+            "ID": 6,
+            "Text": "Ajustar"
+        },
+        {
+            "ID": 7,
+            "Text": "Almacén"
+        },
+        {
+            "ID": 8,
+            "Text": "Oxígeno"
+        },
+        {
+            "ID": 9,
+            "Text": "Dióxido de carbono"
+        },
+        {
+            "ID": 10,
+            "Text": "Nutrientes"
+        },
+        {
+            "ID": 90001,
+            "Text": "Texto de prueba añadido por el mod"
+        },
+        {
+            "ID": 90002,
+            "Text": "Este es texto en español añadido por el mod de ejemplo de localización"
+        },
+        {
+            "ID": 90003,
+            "Text": "¡Bienvenido al sistema de mods!"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+  "fields": [
+    "ID",
+    "GatherAddressID",
+    "FishID",
+    "Weight",
+    "Sort"
+  ],
+  "types": [
+    "string",
+    "string",
+    "string",
+    "int",
+    "int"
+  ],
+  "data": [
+    {
+      "ID": "19001",
+      "GatherAddressID": "10001",
+      "FishID": "9001",
+      "Weight": 300,
+      "Sort": 0
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+    "fields": ["ID", "Text"],
+    "types": ["int", "string"],
+    "data": [
+        {
+            "ID": 1,
+            "Text": "Deutsch"
+        },
+        {
+            "ID": 2,
+            "Text": "Ökosystem-Informationen"
+        },
+        {
+            "ID": 3,
+            "Text": "Süßwasseraquarium"
+        },
+        {
+            "ID": 4,
+            "Text": "Größe:"
+        },
+        {
+            "ID": 5,
+            "Text": "Raum:"
+        },
+        {
+            "ID": 6,
+            "Text": "Anpassen"
+        },
+        {
+            "ID": 7,
+            "Text": "Lager"
+        },
+        {
+            "ID": 8,
+            "Text": "Sauerstoff"
+        },
+        {
+            "ID": 9,
+            "Text": "Kohlendioxid"
+        },
+        {
+            "ID": 10,
+            "Text": "Nährstoffe"
+        },
+        {
+            "ID": 90001,
+            "Text": "Vom Mod hinzugefügter Testtext"
+        },
+        {
+            "ID": 90002,
+            "Text": "Dies ist deutscher Text, der vom Lokalisierungsbeispiel-Mod hinzugefügt wurde"
+        },
+        {
+            "ID": 90003,
+            "Text": "Willkommen im Mod-System!"
+        }
+    ]
+}

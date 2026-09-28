@@ -1,0 +1,16 @@
+# 构建产物
+bin/
+obj/
+*.dll
+*.pdb
+*.deps.json
+
+# IDE
+.vs/
+.idea/
+*.user
+
+# OS
+desktop.ini
+Thumbs.db
+.DS_Store

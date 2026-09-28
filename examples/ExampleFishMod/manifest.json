@@ -1,0 +1,9 @@
+{
+  "Id": "com.example.newfish",
+  "Name": "示例新鱼模组",
+  "Version": "1.0.0",
+  "Author": "ModDeveloper",
+  "Description": "一个示例模组，添加了一种基于鱼1001的新鱼类（ID: 9001）",
+  "MinGameVersion": "0.1.0",
+  "Dependencies": []
+}

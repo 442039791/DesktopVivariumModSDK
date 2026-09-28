@@ -1,0 +1,9 @@
+{
+    "Id": "com.example.localization",
+    "Name": "本地化示例模组",
+    "Version": "1.0.0",
+    "Author": "ModDeveloper",
+    "Description": "演示如何添加本地化文本和新语言（法语）",
+    "MinGameVersion": "0.1.0",
+    "Dependencies": []
+}

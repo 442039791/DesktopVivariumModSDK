@@ -1,0 +1,13 @@
+{
+  "Id": "com.example.speedboost",
+  "Name": "生态箱加速模组",
+  "Version": "1.0.0",
+  "Author": "ModDeveloper",
+  "Description": "使用 Harmony 补丁将生态箱运行速度加快60倍",
+  "MinGameVersion": "0.1.0",
+  "Dependencies": ["com.lib.harmony"],
+  "Scripts": {
+    "Server": ["SpeedBoostMod.dll"],
+    "Client": []
+  }
+}

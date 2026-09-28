@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>MyFirstMod</AssemblyName>
+    <OutputPath>..\Plugins\Server\</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+
+  <!--
+    【必改】把 GameInstallDir 改成你的游戏安装目录，例如：
+      C:\Program Files (x86)\Steam\steamapps\common\DesktopVivarium
+    编译时引用的游戏程序集来自游戏数据目录（游戏名_Data/Managed/）。
+  -->
+  <PropertyGroup>
+    <GameInstallDir>C:\Program Files (x86)\Steam\steamapps\common\DesktopVivarium</GameInstallDir>
+    <GameDataDir>$(GameInstallDir)\DesktopVivarium_Data\Managed</GameDataDir>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="MyFirstMod.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- 游戏程序集（含 IModEntry / IModContext 等模组接口） -->
+    <Reference Include="Assembly-CSharp">
+      <HintPath>$(GameDataDir)\Assembly-CSharp.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <!-- Unity 核心（按需增删：用到 UI 加 UnityEngine.UIModule / Unity.TextMeshPro 等） -->
+    <Reference Include="UnityEngine">
+      <HintPath>$(GameDataDir)\UnityEngine.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>$(GameDataDir)\UnityEngine.CoreModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+</Project>

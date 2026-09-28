@@ -1,0 +1,13 @@
+{
+  "Id": "com.yourname.myfirstmod",
+  "Name": "我的第一个模组",
+  "Version": "1.0.0",
+  "Author": "YourName",
+  "Description": "最小可用的 Server DLL 模组模板",
+  "MinGameVersion": "0.1.0",
+  "Dependencies": [],
+  "Scripts": {
+    "Server": ["MyFirstMod.dll"],
+    "Client": []
+  }
+}

@@ -1,0 +1,18 @@
+{
+    "fields": ["ID", "Text"],
+    "types": ["int", "string"],
+    "data": [
+        {
+            "ID": 90001,
+            "Text": "Test text added by mod"
+        },
+        {
+            "ID": 90002,
+            "Text": "This is English text added by the localization example mod"
+        },
+        {
+            "ID": 90003,
+            "Text": "Welcome to the mod system!"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "Languages": [
+        {
+            "Code": "French",
+            "DisplayName": "Français",
+            "FontName": "Roboto-Bold SDF",
+            "RightToLeft": false
+        },
+        {
+            "Code": "German",
+            "DisplayName": "Deutsch",
+            "FontName": "Roboto-Bold SDF",
+            "RightToLeft": false
+        },
+        {
+            "Code": "Spanish",
+            "DisplayName": "Español",
+            "FontName": "Roboto-Bold SDF",
+            "RightToLeft": false
+        }
+    ]
+}

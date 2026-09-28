@@ -1,0 +1,36 @@
+# LICENSE（占位说明）
+
+> ⚠️ **状态：待作者确认** —— 以下为推荐方案，正式发布前请替换为完整的许可证全文。
+
+## 推荐方案
+
+本仓库（ModSDK）中的**示例代码、工程模板**采用 **MIT License**（见下方全文），
+允许模组作者自由复制、修改、用于自己的模组，无需开源自己的模组代码。
+
+本仓库中的**文档**（docs/ 目录）采用 **CC BY 4.0**，
+允许转载但需署名。
+
+`api/` 目录为游戏程序集内的接口源码副本，仅作参考阅读，
+其版权与游戏本体一致，**不适用上述开源许可**。
+
+## MIT License（示例代码与模板适用）
+
+Copyright (c) 2026 DesktopVivarium 作者
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
